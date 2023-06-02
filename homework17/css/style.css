@@ -1,0 +1,126 @@
+/* NAVIGATION */
+.navigation {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.myName {
+    color: #8DE1D2;
+    margin-left: 20px;
+    font-size: 30px;
+}
+  
+nav {
+    flex: 1;
+}
+  
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+  
+li {
+    margin-left: 75px;
+    color: #F1F1F1
+}
+
+/* HERO */
+.heroImg {
+    text-align: center;
+}
+  
+.content {
+    margin: 0 auto;
+    max-width: 600px;
+    text-align: left;
+}
+  
+h2 {
+    font-size: 36px;
+    text-align: left;
+    color: #F1F1F1;
+    margin-top: 150px;
+    margin-bottom: -50px;
+}
+  
+h1 {
+    font-size: 80px;
+    text-align: left;
+    color: #F1F1F1;
+    margin-bottom: 20px;
+}
+  
+h3 {
+    font-size: 22px;
+    display: inline;
+    color: #F1F1F1;
+    vertical-align: middle;
+    margin-top: -100px;
+}
+  
+hr {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+    margin-top: -45px;
+    margin-bottom: 250px;
+    margin-left: 320px;
+    margin-right: 100px;
+    background-color: #8DE1D2;
+    height: 2px;
+    border: #8DE1D2;
+}
+/* FOOTER */
+.footer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #8DE1D2;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    height: 75px;
+
+  }
+  
+  .footer ul {
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+  }
+  
+  .footer ul li {
+    margin-right: 10px;
+    color: #1B1919
+  }
+  
+  .footer img p {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer .socialMedia img {
+    width: 100px;
+    margin-right: 20px;
+    margin-left: 100px;
+    margin-bottom: -10px;
+  }
+  .footer p {
+    margin-left: 100px;
+    margin-right: 50px;
+    margin-bottom: -5px;
+    font-size: 14px;
+  }
+
+  /* change layout so copyright is on left of screen and menu items are in middle? */
+
+/* HOMEPAGE PROPERTIES*/
+.homepage {
+    background-image: url("/images/homepagebackground.png");
+    background-repeat: none;
+    background-size: 100%;
+    background-position: top;
+}
