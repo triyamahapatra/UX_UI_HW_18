@@ -270,7 +270,7 @@ li {
 
 /* HOMEPAGE PROPERTIES*/
 .homepage {
-    background-image: url("/images/homepagebackground.png");
+    background-image: url("images/homepagebackground.png");
     background-repeat: none;
     background-size: 100%;
     background-position: top;
